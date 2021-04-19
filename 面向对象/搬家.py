@@ -40,4 +40,3 @@ for i in range(0, 101):
         print('再见')
         break
 print(fangzi1)
-#
