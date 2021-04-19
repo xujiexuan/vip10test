@@ -6,18 +6,19 @@
 # 1、打印小猫爱吃鱼，小猫要喝水
 class Cat(object):
     """
-
+    方法：
+    1、喝水
     """
 
-    def catChiYu(self):
-        print("小猫爱吃鱼")
+    def __str__(self):
+        return "小猫爱吃鱼"
 
     def catHeShui(self):
         print("小猫要喝水")
 
 
 xiaomao = Cat()
-xiaomao.catChiYu()
+print(xiaomao)
 xiaomao.catHeShui()
 
 
